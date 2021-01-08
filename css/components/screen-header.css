@@ -1,5 +1,26 @@
 .screen-header {
   display: flex;
   justify-content: space-between;
-  padding: 25px;
+  align-items: center;
+  padding: var(--horizontal-space);
 }
+.screen-header__title {
+  font-size: 32px;
+  font-weight: 600;
+}
+.screen-header__icons span {
+  margin-left: 25px;
+}
+/* wrong code */
+/* .screen-header__title {
+  font-size: 50px;
+  font-weight: 600;
+}
+.screen-header__icons {
+  position: absolute;
+  right: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0px 15px;
+} */
